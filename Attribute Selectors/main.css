@@ -1,0 +1,10 @@
+#massad{color:blue} /* Using this rule here allows us to change the color of text, since # means id and the text after it is the id in the text on the html file between the <p> put id="####" and this will allow you to change the text color*/
+.web{color:red}     /* An alternative to using ids is classes. You can indicate a class by using the period sign and the text name after that and in the html file you can put the class="###" and it will show that color of text. */
+p.massad{color:green} /* This command here shows that only texts that are paragraphs and have the class #### get affected. So it would need both in order for the text color to change. */
+p[name]{color:purple} /* This shows that any paragraph that also has the attribute name will get affected. It can have any text after the attribute but if the attribute is name then it will get affected */
+p[name="raza"]{color:greenyellow} /* This shows that any paragraph that has the attribute name which is equal to the specified text will get affected */
+p[name^="round"]{color:grey}     /* This shows that any pargraph that starts with the specified word it will change the text color. The only thing that matters if the beginning matches the text of the attribute*/
+p[name$="weird"]{color:brown}    /* This does the same thing except for the ending if any word ends with the attributes text */
+p[name*="raza"]{color:lightskyblue} /* This also does the same thing accept if the text in the attribute is any where in the key then it will change the text color. */
+
+ 
