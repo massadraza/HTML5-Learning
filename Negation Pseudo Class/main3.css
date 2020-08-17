@@ -1,0 +1,2 @@
+*{color:blue} /* When you use the * sign this means all and then after that it states color blue so all text will have blue color */ 
+:not(.massad){color:red} /* What this statement is saying is that everything that is not in the massad class will be the color red. So the class of massad color will stay the same while the classes that are not massad will change to the color red */
