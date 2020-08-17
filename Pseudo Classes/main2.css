@@ -1,0 +1,3 @@
+p:nth-child(odd){color:blue}  /* What this does is for every paragraph every odd paragraph will be the color blue */
+p:nth-child(even){color:red}  /* What this does is for every even paragraph it will be the color red */
+p:nth-child(3){color:green}   /* What this does is every third paragraph will be the color green */
