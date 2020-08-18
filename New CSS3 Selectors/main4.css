@@ -1,0 +1,4 @@
+div > p {color:blue} /* What the greater sign means is that any paragraph that has the div tag will get affected.  */ 
+body > p {color:green} /* What this is showing is that the any paragraph that has the body tag will get affected but since the body is the grandparent of the paragraph it will not get affected */
+p.child + p{color:red} /* What this selector means is that for the child class, for every paragraph that is following behind the chind class turn it red. Like the second and so on paragraphs will turn red but the first one won't because its following a div tag not a paragraph */
+p.child ~ p{color: brown} /* The way that this statement is different from the previous one is that it doesnt need to follow it immediately. Like it will follow the first one but if there is a span in the middle it will still be brown */
