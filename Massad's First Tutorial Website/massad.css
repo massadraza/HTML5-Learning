@@ -15,3 +15,25 @@ header, section, footer aside, nav, article, hgroup{
 body{
     text-align:center;
 }
+#body_tag{
+    border: 1px solid black;
+    width:1000px;
+    margin: 20px auto;
+    text-align:left;
+
+}
+#top_header{
+    background:yellow;
+    border: 1px solid blue;
+    padding: 20px;
+}
+#top_menu{
+    background:blue;
+    color:white;
+}
+#top_menu li{
+    display:inline-block;
+    list-style:none;
+    padding: 5px;
+    font: bold 14px Tahoma 
+}
