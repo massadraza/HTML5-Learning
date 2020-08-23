@@ -37,3 +37,21 @@ body{
     padding: 5px;
     font: bold 14px Tahoma 
 }
+#main_section{
+    float: left;
+    width:660px;
+    margin:30px; /* 720px, 280 px left */ 
+}
+#side_news{
+    float:left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 30px;
+    background: #66CCCC;
+}
+#the_footer{
+    clear:both;
+    text-align:center;
+    padding:20px;
+    border-top: 2px solid green;  
+}
