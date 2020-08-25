@@ -6,7 +6,7 @@ h1{
     font: bold 20px Tahoma;
 }
 h2{
-    font: bold 14xp Tahoma;
+    font: bold 14px Tahoma;
 }
 header, section, footer, aside, nav, article, hgroup{
     display:block;
@@ -61,3 +61,12 @@ body{
     padding:20px;
     border-top: 2px solid green;
 }
+article{
+    background: #FFFBCC;
+    border: 1px solid red;
+    padding: 20px;
+    margin-bottom: 15px; 
+}
+article footer{
+    text-align:right
+} 
