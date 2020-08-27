@@ -1,64 +1,44 @@
-/* Day 1 Example (Beginning) */
 #parent{
     border:2px solid blue;
     display:-webkit-box;
     -webkit-box-orient:horizontal;
-    -webkit-box-direction:reverse;
+    width: 700px; 
+    height:300px; 
+    -webkit-box-align:stretch;  
 }
 #kid1{
     border: 2px solid red;
     background: green;
     padding:20px;
-    margin:10px
+    margin:10px;
+    -webkit-box-flex:1;
 }
 #kid2{
     border: 2px solid red;
     background: yellow;
     padding:20px;
-    margin:10px
+    margin:10px;
+    -webkit-box-flex:1;
 }
 #kid3{
     border: 2px solid red;
     background: red;
     padding:20px;
-    margin:10px
+    margin:10px;
+    -webkit-box-flex:1;
 }
 #kid4{
     border: 2px solid red;
     background: orange;
     padding:20px;
-    margin:10px
+    margin:10px;
+    -webkit-box-flex:1; 
 }
-/* Day 1 Example (Ending) */ 
+/* -webkit-box-direction:reverse; changes the order of elements */ 
+/* Using the code, -webkit-box-ordinal-group:#; you can specify a box on your website to a specific position */ 
+/* To specifically put all the boxes to the center, left or right you need to give each a box a maximum width, 
+and then in the parent class you need to type "-webkit-box-pack:center;" if you want to center it or put start
+if you want it on the left side or end if you want to put it on the right side */
+/* If you want to make a specific box flexible, go to that box class and type "-webkit-box-flex:1;" the one means its
+flexible and the 0 means its fixed, it's 0 by default */ 
 
-/* Day 2 (beginning) First Example */
-#mommy{
-    border:2px solid blue;
-    display:-webkit-box;
-    -webkit-box-orient:horziontal;
-    -webkit-box-direction:reverse;
-}
-#child1{
-    border: 2px solid red;
-    background:blue;
-    padding:20px;
-    margin:10px 
-}
-#child2{
-    border: 2px solid red;
-    background:lightgreen;
-    padding:20px;
-    margin:10px 
-}
-#child3{
-    border: 2px solid red;
-    background:lightblue;
-    padding:20px;
-    margin:10px 
-}
-#child4{
-    border: 2px solid red;
-    background:gold;
-    padding:20px;
-    margin:10px 
-}
