@@ -1,0 +1,18 @@
+body{
+    text-align:center;
+}
+#box{
+    display:block;
+    width:500px;
+    margin:50px auto; 
+    padding:15px;
+    text-align:center;
+    border:7px solid red;
+    background:blue;
+    outline:7px solid black; 
+    -webkit-transform:translate(100px,100px) rotate(30deg) scale(.8); 
+}
+#text{
+    font:bold 30px Century Gothic;
+    color:white 
+}
